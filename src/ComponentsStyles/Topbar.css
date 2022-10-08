@@ -1,0 +1,64 @@
+.Topbar{
+    width: 100%;
+    height: 50px;
+     position: sticky  ;
+     top: 0;
+     z-index: 999;
+}
+
+.Topbar__Wrapper{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 30px;
+     height: 100%;
+}
+
+.logo__container{
+
+    padding: 0 20px;
+
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.icon__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon__div{
+    margin-right: 10px;
+   position: relative; 
+   
+}
+.icon__counter{
+    text-align: center;
+    width: 13px;
+    height: 13px;
+background-color: red;
+color: wheat;
+border-radius: 100px;
+display: inline-block;
+position: absolute;
+right: 2px;
+top: -5px;
+font-size: 10px;
+
+}
+
+.user__div{
+    width: 50px;
+}
+.user__image{
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
